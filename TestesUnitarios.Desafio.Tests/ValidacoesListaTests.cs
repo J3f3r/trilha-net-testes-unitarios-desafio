@@ -48,7 +48,7 @@ public class ValidacoesListaTests
         Assert.False(resultado);
     }
 
-    //Corrigir a anotação [Fact]
+    
     [Fact]
     public void DeveMultiplicarOsElementosDaListaPor2()
     {
@@ -73,7 +73,6 @@ public class ValidacoesListaTests
         var resultado = _validacoes.RetornarMaiorNumeroLista(lista);
 
         // Assert
-        // Corrigir o Assert.Equal com base no retorno da chamada ao método
         Assert.Equal(9, resultado);
     }
 
@@ -87,7 +86,6 @@ public class ValidacoesListaTests
         var resultado = _validacoes.RetornarMenorNumeroLista(lista);
 
         // Assert
-        //Corrigir o Assert.Equal com base no retorno da chamada ao método
         Assert.Equal(-8, resultado);
     }
 }
